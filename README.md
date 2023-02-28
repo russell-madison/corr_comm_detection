@@ -5,7 +5,7 @@ Multilayer community detection with covariance matrix input
 Contains the following functions
 * cov_to_corr: function to transform a covariance matrix into a correlation matrix
 
-* con_corr_func: function to generate a configuration model correlation matrix from an empirical correlation or covariance matrix, using configcorr package
+* `con_corr_func`: function to generate a configuration model correlation matrix from an empirical correlation or covariance matrix, using configcorr package [To Madison: Is this backslash quotation better? Or more importantly, do people do that to mention the function? Please investigate Github to learn the usage. Anyways I believe we can do better.]
 
 * multicorrcat: function (inspired by multicat.m) to output a flattened modularity matrix
 
