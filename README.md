@@ -23,7 +23,7 @@ corr_comm_detection has the following dependencies. These packages need to be in
 * pandas
 * matplotlib
 * scipy
-* configcorr, found here: https://github.com/naokimas/config_corr
+* [configcorr](https://github.com/naokimas/config_corr)
 * netneurotools, found here: https://github.com/netneurolab/netneurotools
 * matlab.engine, instructions found here: https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html
 * Also must download the GenLouvain matlab package, found here: https://github.com/GenLouvain/GenLouvain
