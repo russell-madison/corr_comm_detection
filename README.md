@@ -29,7 +29,7 @@ Contains the following functions
 * Also must download the [GenLouvain matlab package](https://github.com/GenLouvain/GenLouvain)
 
 ## multilayer_gene_coexpression_example.ipynb 
-(I need to change my example usage to not include GTEx data. Use dummy input data)
+**(I need to change my example usage to not include GTEx data. Use dummy input data)**
 
 Contains example usage of `corr_comm_detection` with gene coexpression data for four different organs from GTEx
 
