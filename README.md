@@ -28,9 +28,6 @@ Contains the following functions
 * [matlab.engine](https://www.mathworks.com/help/matlab/matlab_external/install-the-matlab-engine-for-python.html)
 * Also must download the [GenLouvain matlab package](https://github.com/GenLouvain/GenLouvain)
 
-## multilayer_gene_coexpression_example.ipynb (will change this)
-**(I need to change my example usage to not include GTEx data. Use dummy input data)**
+## multilayer_example.ipynb
 
-Contains example usage of `corr_comm_detection` with gene coexpression data for four different organs from GTEx
-
-exo_emp_covs.npy and organ_corr_omegas.npy contain data for this example usage.
+Contains example usage of `corr_comm_detection` with dummy data.
