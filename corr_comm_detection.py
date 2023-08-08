@@ -227,7 +227,7 @@ def it_genlouvain_corr_consensus(p,B,genlouvain_file_location,runs=200):
 
     #re-number communities in descending order of the number of nodes
     new_part_array = np.copy(part_reshape)
-    unique, counts = numpy.unique(part_reshape, return_counts=True)
+    unique, counts = np.unique(part_reshape, return_counts=True)
     num_nodes_comm = dict(zip(unique, counts))
     comms_large_to_small = sorted(num_nodes_comm, key=num_nodes_comm.get, reverse=True)
     new_comm_nums = np.array(list(range(1,len(comms_large_to_small)+1)))
