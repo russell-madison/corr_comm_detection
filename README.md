@@ -33,4 +33,4 @@ Contains the following functions
 Contains example usage of `corr_comm_detection` with dummy data.
 
 ## partition_corr_gamma3.xlsx
-Contains a table of the partition obtained by our multilayer community detection method with resolution parameter gamma=3. Each row corresponds to a gene, each column corresponds to a tissue (i.e., a layer of the network), and each entry is the index of the community to which the corresponding node belongs. 
+Contains a table of the partition obtained by `corr_comm_detection` with resolution parameter gamma=3. Each row corresponds to a gene, each column corresponds to a tissue (i.e., a layer of the network), and each entry is the index of the community to which the corresponding node belongs. 
